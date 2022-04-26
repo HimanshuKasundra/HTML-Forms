@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration form</title>
+</head>
+<body>
+	<h1 align="center">
+		<font color="blue" face="arial">Registration Form
+		</font>
+	</h1>
+	<hr>
+<form>
+	<table border="1" align="center">
+		<tr> 
+				<td>Enter Username</td>
+				<td> :-</td>
+				<td><input type="TEXT" placeholder="Enter username" required></td>
+			</tr>
+			<tr>
+				<td>Enter password</td>
+				<td> :-</td>
+				<td><input required type="password" placeholder="Password" title="Invalid password"></td>
+			</tr>
+			<tr>
+				<td>Enter email id</td>
+				<td> :-</td>
+				<td><input type="email" placeholder="Enter email" title="Invalid email"></td>
+			</tr>
+			<tr>
+				<td>Enter Mobile no.</td>
+				<td> :-</td>
+				<td><input  required type="TEXT" placeholder="Enter Mobile no." pattern="[0-9]{10}" title="Invalid Mobile no.">
+				</td>
+			</tr>
+			<tr>
+				<td>Enter D.O.B</td>
+				<td> :-</td>
+				<td><input required type="date" placeholder="Enter email" title="Invalid input."></td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td>:-</td>
+				<td><input checked="checked" type="checkbox" name="123">Playing Games<br>
+					<input type="checkbox" name="123">Reading Books<br>
+					<input type="checkbox" name="123">Dancing<br>
+					<input type="checkbox" name="123">Racing<br>
+					<input type="checkbox" name="123">Cooking<br>
+				</td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>:-</td>
+				<td><input type="radio" name="1" checked>Male<br>
+					<input type="radio" name="1">Female<br>
+					<input type="radio" name="1">Others<br>
+				</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td>:-</td>
+				<td><textarea></textarea></td>
+			</tr>
+			<tr>
+				<td>Select City</td>
+				<td>:-</td>
+				<td>
+					<select>
+						<option	>Select city</option>
+						<option>Rajkot</option>
+						<option>Bhuj</option>
+						<option>Jamnagar</option>
+						<option>Bhavnager</option>
+						<option>Morbi</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><input type="submit"></td>
+				<td></td>
+				<td align="center"><input type="reset"></td>
+			</tr>
+	</table>
+</form>	
+
+</body>
+</html>
